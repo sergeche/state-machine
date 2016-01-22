@@ -1,0 +1,35 @@
+{
+  "name": "state-machine",
+  "version": "0.0.1",
+  "description": "A very basic state machine implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "author": "Sergey Chikuyonok <serge.che@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^1.1.1",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergeche/state-machine.git"
+  },
+  "keywords": [
+    "fsm",
+    "finite",
+    "state",
+    "machine"
+  ],
+  "bugs": {
+    "url": "https://github.com/sergeche/state-machine/issues"
+  },
+  "homepage": "https://github.com/sergeche/state-machine"
+}
