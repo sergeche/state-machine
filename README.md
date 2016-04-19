@@ -10,7 +10,7 @@ You can also pass objects as additional arguments to constructor, each object’
 
 ```js
 var myFsm = new FSM({
-    // by default FSM transitions to `initial` state. You you need
+    // by default FSM transitions to `initial` state. If you need
     // another state to be initial, simply put into `initial` property
     // require state name:
     // initial: "my-state"
@@ -36,7 +36,7 @@ var myFsm = new FSM({
         }
     },
     authorize() {
-        console.log('Enter you user name')
+        console.log('Enter your username')
     }
 });
 ```
